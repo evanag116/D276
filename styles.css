@@ -1,4 +1,15 @@
 header {
-    text-align: center;
-    
+    text-align:center;
 }
+ /* ---- for on-screen layout ---- */
+body {
+    /* letter size */
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0.5in auto; /* margins */
+    padding: 1in; /* margins */
+    background: white;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.2); /* subtle “page” border */
+    box-sizing: border-box;
+  }
+  
