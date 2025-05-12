@@ -1,5 +1,6 @@
 header {
     text-align:center;
+    font-family: 'Times New Roman', Times, serif;
 }
  /* ---- for on-screen layout ---- */
 body {
@@ -8,8 +9,14 @@ body {
     min-height: 11in;
     margin: 0.5in auto; /* margins */
     padding: 1in; /* margins */
+    padding-top:0.25in;
     background: white;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.2); /* subtle “page” border */
     box-sizing: border-box;
+  }
+
+  #intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200;
   }
   
