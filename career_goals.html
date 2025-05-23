@@ -1,10 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Evan Garcia</title>
-    </head>
-    <header>Evan Garcia</header>
+  <head>
+    <title>Evan Garcia Career Goals</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-    <p>hi</p>
+  <body>
+    <header>
+        <h2 id="name" style="font-family:'Times New Roman', Times, serif">Evan Garcia</h2>
+        <h5 id="basic_info"><b>Software Engineer | Air Force Veteran | Systems Manager</b></h5>
+        <h5 id="basic_info" style="font-weight:500">Boulder, CO | (502) 715-2210 | evanag116@yahoo.com</h5>
+        <nav>
+          <a href="./resume.html" target="_blank">Resume</a>
+          <a href="./cover_letter.html" target="_blank">Cover Letter</a>
+        </nav>
+    </header>
 
+    <main>
+      <p>Dream job:</p>
+      <img id="astronaut" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg" width="300">
+
+      <p>How to get dream job:</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/T4dfXIN0MOs?si=x-WloYerRUj2tZLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <br>
+
+      <div class="centered">
+
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+          <label for="first-name">First Name:</label>
+          <input type="text">
+          <br>
+
+          <label for="last-name">Last Name:</label>
+          <input type="text">
+          <br>
+
+          <label for="company-name">Company Name:</label>
+          <input type="text">
+          <br>
+
+
+          <label for="email">Email Address:</label>
+          <input type="email">
+          <br>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel">
+          <br>
+
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          <br>
+
+
+          <fieldset>
+            <legend>Best Contact Time:</legend>
+
+            <label><input type="radio" name="contactTime" value="am" required>AM</label>
+
+            <label><input type="radio" name="contactTime" value="pm">PM</label>
+
+            <label><input type="radio" name="contactTime" value="anytime">Anytime</label>
+
+          </fieldset>
+          <br>
+
+
+          <label for="contact-method">Preferred Contact Method:</label>
+          <select id="contact-method" name="contactMethod" required>
+            <option value="" disabled selected>Select one…</option>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+          </select>
+          <br>
+          <br>
+
+          <button type="submit">Submit</button>
+        </form>
+
+      </div>
+
+
+
+    </main>
+
+    <footer>
+      <p>Note that YouTube gave me the iframe tag to embed video within an HTML document. I clicked "Share" -> "Embed"</p>
+    </footer>
+    
+  </body>
 </html>

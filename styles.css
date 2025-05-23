@@ -44,6 +44,11 @@ a:hover {
   color: blue;
 }
 
+.centered {
+  width: 300px;      
+  margin: 0 auto;    
+}
+
 footer {
   font-size: 12px;
 }
@@ -51,4 +56,13 @@ footer {
 #cover-letter p{
   line-height:2;
   font-size:14px;
+}
+
+#astronaut {
+  padding: 20px;
+}
+
+#my-form {
+  padding: 20px;
+
 }
