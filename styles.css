@@ -35,3 +35,15 @@ ul {
 p {
   font-size:12px;
 }
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+footer {
+  font-size: 12px;
+}
